@@ -191,14 +191,14 @@ const App = () => {
        
       <BeforeAfterSlider 
         beforeImage="./before-living-room.jpg" 
-        afterImage="./public/after-living-room.jpg" 
+        afterImage="./after-living-room.jpg" 
         description="This living room was completely transformed with new furniture, a fresh coat of paint, and modern lighting. The new design features a minimalist aesthetic with warm, inviting tones."
       />
 
        <br></br>
       <BeforeAfterSlider 
         beforeImage="./before-living-room1.jpg" 
-        afterImage="./public/after-living-room1.jpeg" 
+        afterImage="./after-living-room1.jpeg" 
         description="This living room was completely transformed with new furniture, a fresh coat of paint, and modern lighting. The new design features a minimalist aesthetic with warm, inviting tones."
       />
       
