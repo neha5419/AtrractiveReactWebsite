@@ -1,0 +1,64 @@
+*{
+    margin:0 auto;
+}
+.case-study {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .case-study h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #ff6f61;
+    text-align: center;
+  }
+  
+  .comparison-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-wrapper {
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .image-wrapper.after {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .comparison-container:hover .image-wrapper.after {
+    opacity: 1;
+  }
+  
+  .description {
+    color: #666;
+    line-height: 1.6;
+    font-size: 1.1em;
+  }
+  
+  
+  
+  

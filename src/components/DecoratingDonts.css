@@ -1,0 +1,55 @@
+/* Decorating Don'ts Styling */
+.decorating-donts {
+    background-color: #f4f9f9; /* Light grey background for a soft look */
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .decorating-donts h2 {
+    font-size: 2.5em;
+    color: #444444; /* Darker grey for the heading */
+    margin-bottom: 30px;
+  }
+  
+  .donts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .dont-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .dont-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dont-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .dont-content {
+    padding: 15px;
+  }
+  
+  .dont-title {
+    font-size: 1.5em;
+    color: #e74c3c; /* A striking red color for emphasis */
+    margin-bottom: 10px;
+  }
+  
+  .dont-description {
+    font-size: 1.1em;
+    color: #666666;
+  }
+  

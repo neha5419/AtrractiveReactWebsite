@@ -1,0 +1,111 @@
+/* Weekly Advice Styling */
+.weekly-advice {
+    background-color: #f4f9f9; /* Soft grey background */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .weekly-advice h2 {
+    font-size: 2.5em;
+    color: #2c3e50; /* A deep, professional blue for the heading */
+    margin-bottom: 40px;
+  }
+  
+  .advice-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .designer-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .advice-content {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .advice-content h3 {
+    font-size: 1.6em;
+    color: #e74c3c; /* A calm blue color for the designer's name */
+    margin-bottom: 15px;
+  }
+  
+  .advice-content p {
+    font-size: 1.1em;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  
+  .rating-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .rating-button {
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .rating-button:hover {
+    transform: scale(1.2);
+  }
+  
+  .rating-button.selected {
+    color: #e74c3c; /* Highlight selected rating with blue color */
+  }
+  
+  .schedule-info {
+    margin-bottom: 20px;
+  }
+  
+  .schedule-info p {
+    font-size: 0.9em;
+    color: #999999;
+    margin-bottom: 10px;
+  }
+  
+  .schedule-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .schedule-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  .next-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  

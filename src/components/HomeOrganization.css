@@ -1,0 +1,71 @@
+/* Home Organization Styling */
+.home-organization {
+    background-color: #f4f9f9; /* Light grey background for a soft look */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .home-organization h2 {
+    font-size: 2.5em;
+    color: #333333; /* Darker grey for the heading */
+    margin-bottom: 40px;
+  }
+  
+  .ideas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .idea-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .idea-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .idea-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .idea-content {
+    padding: 20px;
+  }
+  
+  .idea-content h3 {
+    font-size: 1.6em;
+    color: #e74c3c; /* A calming blue color for the title */
+    margin-bottom: 15px;
+  }
+  
+  .idea-content p {
+    font-size: 1.1em;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  
+  .idea-button {
+    background-color:#e74c3c;;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .idea-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  

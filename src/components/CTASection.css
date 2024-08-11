@@ -1,0 +1,39 @@
+.cta-section {
+    padding: 40px 20px;
+    background-color: #fdafc1; /* Light pink background */
+    color: #333;
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cta-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    color: #e74c3c; /* Light pink text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #3498db; /* Blue background on hover */
+    color: #fff; /* White text on hover */
+  }
+  
